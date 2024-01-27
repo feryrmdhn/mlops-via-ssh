@@ -1,0 +1,23 @@
+{
+    "builds": [
+        {
+            "src": "api/**/*.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "/.*",
+            "dest": "/api/iris.py"
+        }
+    ],
+    "clean": {
+        "ignore": [
+            "data",
+            "models"
+        ]
+    }
+}
