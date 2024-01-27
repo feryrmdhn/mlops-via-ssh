@@ -13,11 +13,5 @@
             "src": "/.*",
             "dest": "/api/iris.py"
         }
-    ],
-    "clean": {
-        "ignore": [
-            "data",
-            "models"
-        ]
-    }
+    ]
 }
