@@ -54,7 +54,7 @@ Create dockerfile (like this repo)
 
 ### Setup env github
 <ul>
-    <li>Select repository</li>
+    <li>Create or Select repository</li>
     <li>Go to <code>settings -> secrets and variables -> actions</code></li>
     <li>Create new repository secrets</li>
     <li><code>DIGITALOCEAN_ACCESS_TOKEN</code> is Digital Ocean Access Token that saved in notes/notepad</li>
