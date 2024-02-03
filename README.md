@@ -49,6 +49,7 @@ Create dockerfile (like this repo)
     <li>Follow this guide <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04">Here</a> just follow step 1 (step 2 optional)</li>
     <li>Ensure docker is active <code>sudo systemctl status docker</code></li>
     <li>ctrl + x</li>
+    <li>Type <code>exit</code> to exit from server</li>
 </ul>
 
 ### Setup env github
