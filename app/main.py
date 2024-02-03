@@ -29,4 +29,4 @@ def iris(request:IrisSingleRequest):
     model = load('model.sav')
     result = model.predict(formatted_features)
 
-    return {"result": post_process(result.tolist()[0])}
+    return {"result response": post_process(result.tolist()[0])}
