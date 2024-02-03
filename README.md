@@ -39,8 +39,8 @@ Create dockerfile (like this repo)
     <li>Run <code>ssh root@ip_address_droplet_v4</code></li>
     <li><code>ls ~/.ssh</code></li>
     <li>There is file <strong>authorized_keys</strong></li>
-    <li><code>nano authorized_keys</code>insert value id_ed25519.pub</li>
-    <li>Close ctrl + x then Y then enter</li>
+    <li><code>nano authorized_keys</code> insert value id_ed25519.pub</li>
+    <li>Close <code>ctrl + x</code> then <code>Y</code> then enter</li>
     <li>Back to directory <code>cd ..</code></li>
 </ul>
 
