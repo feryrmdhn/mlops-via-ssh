@@ -20,7 +20,7 @@ on:
 #2
 env:
   REGISTRY: "registry.digitalocean.com/dibimbing"
-  IMAGE_NAME: "mlops"
+  IMAGE_NAME: "mlops-docker-image"
 
 #3
 jobs:
@@ -71,6 +71,7 @@ jobs:
             docker rm $(echo $IMAGE_NAME)
             # Run a new container from a new image
             docker run -d \
+            -p 8010:8001 \
             --restart always \
             --name $(echo $IMAGE_NAME) \
             $(echo $REGISTRY)/$(echo $IMAGE_NAME):$(echo $GITHUB_SHA | head -c7)
