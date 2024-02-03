@@ -71,6 +71,7 @@ jobs:
             docker rm $(echo $IMAGE_NAME)
             # Run a new container from a new image
             docker run -d \
+            # forward from 8002 (dockerfile) to 8001
             -p 8001:8002 \
             --restart always \
             --name $(echo $IMAGE_NAME) \
