@@ -20,7 +20,7 @@ on:
 #2
 env:
   REGISTRY: "registry.digitalocean.com/dibimbing"
-  IMAGE_NAME: "mlops"
+  IMAGE_NAME: "mlops-docker-image"
 
 #3
 jobs:
